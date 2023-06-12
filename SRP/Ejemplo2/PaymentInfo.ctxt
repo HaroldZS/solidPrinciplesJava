@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PaymentInfo
+comment1.params=date\ paymentId
+comment1.target=PaymentInfo(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getDate()
+comment3.params=
+comment3.target=int\ getPaymentId()
+comment4.params=date
+comment4.target=void\ setDate(java.lang.String)
+comment5.params=paymentId
+comment5.target=void\ setPaymentId(int)
+numComments=6

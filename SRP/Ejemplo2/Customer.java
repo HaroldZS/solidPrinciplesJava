@@ -1,18 +1,18 @@
-package SRP.Ejemplo1;
+package SRP.Ejemplo2;
 
 public class Customer
 {
     private String name;
     private String address;
     private double balance;
-
+    
     public Customer(String name, String address, double balance) {
         this.name = name;
         this.address = address;
         this.balance = balance;
     }
     
-    public String getName(){
+     public String getName(){
         return this.name;
     }
     
