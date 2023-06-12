@@ -5,16 +5,16 @@ public class Main
 {
     public static void main(String[] args){
         ArrayList<Payment> payments = new ArrayList<Payment>();
-        Payment creditCard = new Payment("CreditCard");
-        Payment bankTransfer = new Payment("BankTransfer");
+        CreditCardPayment creditCard = new CreditCardPayment();
+        BankTransferPayment bankTransfer = new BankTransferPayment();
+        PaypalPayment paypal = new PaypalPayment();
         
         payments.add(creditCard);
         payments.add(bankTransfer);
-        
-        PaymentProcessor paymentProcessor = new PaymentProcessor();
+        payments.add(paypal);
         
         for(int i=0; i<payments.size(); i++){
-            paymentProcessor.processPayment(payments.get(i));
+            payments.get(i).processPayment();
         }
     }
 }

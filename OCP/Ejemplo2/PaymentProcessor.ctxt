@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=PaymentProcessor
-comment1.params=payment
-comment1.target=void\ processPayment(Payment)
-comment2.params=payment
-comment2.target=void\ processCreditCardPayment(Payment)
-comment3.params=payment
-comment3.target=void\ processBankTransferPayment(Payment)
-numComments=4
