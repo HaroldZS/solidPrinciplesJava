@@ -1,5 +1,6 @@
 package SRP.Ejemplo2;
 import java.util.ArrayList;
+
 public class Order
 {
     private ArrayList<Item> items;
@@ -16,18 +17,6 @@ public class Order
             total += item.getPrice();
         }
         return total;
-    }
-
-    public void processPayment(PaymentInfo paymentInfo) {
-        System.out.println("The payment "+paymentInfo.getPaymentId()+" is being processed on "+paymentInfo.getDate());
-    }
-
-    public void sendConfirmationEmail() {
-        System.out.println("Email sent to customer: "+this.customer.getName());
-    }
-
-    public void generateInvoice() {
-        System.out.print("Invoice generated to customer: "+this.customer.getName());
     }
     
     public ArrayList<Item> getItems(){

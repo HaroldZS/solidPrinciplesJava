@@ -16,10 +16,17 @@ public class Main {
         items.add(item3);
         
         Order order = new Order(items, customer);
+        
         PaymentInfo paymentInfo = new PaymentInfo("11/06/23",61612298);
         
-        order.processPayment(paymentInfo);
-        order.sendConfirmationEmail();
-        order.generateInvoice();
+        PaymentProcessor paymentProcessor = new PaymentProcessor();
+        EmailSender emailSender = new EmailSender();
+        InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
+        
+        paymentProcessor.processPayment(paymentInfo);
+        emailSender.sendConfirmationEmail(customer);
+        invoiceGenerator.generateInvoice(customer);
+        
+        System.out.println("Total amount: "+order.calculateTotal());
     }
 }
