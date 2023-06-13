@@ -13,8 +13,8 @@ public class Main
         waiter.processPayment();
         cook.prepareFood();
         
-        cashier.prepareFood();
-        waiter.prepareFood();
-        cook.processPayment();
+        cashier.teamWork();
+        waiter.teamWork();
+        cook.teamWork();
     }
 }

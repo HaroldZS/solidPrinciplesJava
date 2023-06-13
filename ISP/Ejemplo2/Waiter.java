@@ -1,6 +1,11 @@
 package ISP.Ejemplo2;
 
-public class Waiter implements RestaurantStaff {
+public class Waiter implements RestaurantStaff, WaiterActivities, CashierWaiterSharedActivities {
+    @Override
+    public void teamWork() {
+        System.out.println("Waiter is doing teamWork.");
+    }
+    
     @Override
     public void takeOrder() {
         System.out.println("Waiter is taking the order.");
@@ -14,10 +19,5 @@ public class Waiter implements RestaurantStaff {
     @Override
     public void processPayment() {
         System.out.println("Waiter is processing the payment.");
-    }
-
-    @Override
-    public void prepareFood() {
-        // ISP violation
     }
 }

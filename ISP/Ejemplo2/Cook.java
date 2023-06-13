@@ -1,19 +1,9 @@
 package ISP.Ejemplo2;
 
-public class Cook implements RestaurantStaff {
+public class Cook implements RestaurantStaff, CookActivities {
     @Override
-    public void takeOrder() {
-        // ISP violation
-    }
-
-    @Override
-    public void serveFood() {
-        // ISP violation
-    }
-
-    @Override
-    public void processPayment() {
-        // ISP violation
+    public void teamWork() {
+        System.out.println("Cook is doing teamWork.");
     }
     
     @Override

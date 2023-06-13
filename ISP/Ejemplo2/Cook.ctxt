@@ -1,11 +1,7 @@
 #BlueJ class context
 comment0.target=Cook
 comment1.params=
-comment1.target=void\ takeOrder()
+comment1.target=void\ teamWork()
 comment2.params=
-comment2.target=void\ serveFood()
-comment3.params=
-comment3.target=void\ processPayment()
-comment4.params=
-comment4.target=void\ prepareFood()
-numComments=5
+comment2.target=void\ prepareFood()
+numComments=3
