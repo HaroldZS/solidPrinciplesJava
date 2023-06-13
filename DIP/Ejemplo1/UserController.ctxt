@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UserController
+comment1.params=databaseProcessor
+comment1.target=UserController(DatabaseProcessor)
+comment2.params=username
+comment2.target=void\ createUser(java.lang.String)
+numComments=3
