@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pond
+comment1.params=
+comment1.target=Pond()
+comment2.params=duck
+comment2.target=void\ addDuck(Duck)
+comment3.params=
+comment3.target=void\ makeDucksSwim()
+numComments=4
