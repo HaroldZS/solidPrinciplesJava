@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=Lion
+comment0.target=Whale
 comment1.params=
 comment1.target=void\ eat()
 comment2.params=
@@ -9,5 +9,5 @@ comment3.target=void\ move()
 comment4.params=
 comment4.target=void\ makeSound()
 comment5.params=
-comment5.target=void\ walk()
+comment5.target=void\ swim()
 numComments=6

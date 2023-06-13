@@ -1,6 +1,6 @@
 package ISP.Ejemplo1;
 
-public class Eagle implements Animal {
+public class Eagle implements Animal, AerialSkills {
     @Override
     public void eat() {
         System.out.println("The eagle is eating.");

@@ -5,5 +5,4 @@ public interface Animal {
     void sleep();
     void move();
     void makeSound();
-    void fly();
 }
