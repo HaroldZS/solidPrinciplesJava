@@ -2,8 +2,10 @@
 comment0.target=Square
 comment1.params=sideLength
 comment1.target=Square(int)
-comment2.params=width
-comment2.target=void\ setWidth(int)
-comment3.params=height
-comment3.target=void\ setHeight(int)
-numComments=4
+comment2.params=
+comment2.target=int\ getSide()
+comment3.params=sideLength
+comment3.target=void\ setSide(int)
+comment4.params=
+comment4.target=int\ getArea()
+numComments=5

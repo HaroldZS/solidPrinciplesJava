@@ -1,19 +1,22 @@
 package LSP.Ejemplo1;
 
-class Square extends Rectangle {
+class Square extends Shape {
+    private int sideLength;
+    
     public Square(int sideLength) {
-        super(sideLength, sideLength);
+        this.sideLength = sideLength;
     }
-
-    @Override
-    public void setWidth(int width) {
-        this.width = width;
-        this.height = width;
+    
+    public int getSide() {
+        return this.sideLength;
     }
-
+    
+    public void setSide(int sideLength) {
+        this.sideLength = sideLength;
+    }
+    
     @Override
-    public void setHeight(int height) {
-        this.width = height;
-        this.height = height;
+    public int getArea(){
+        return sideLength * sideLength;
     }
 }
