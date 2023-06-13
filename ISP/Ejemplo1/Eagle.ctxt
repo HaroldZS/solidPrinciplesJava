@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Eagle
+comment1.params=
+comment1.target=void\ eat()
+comment2.params=
+comment2.target=void\ sleep()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ makeSound()
+comment5.params=
+comment5.target=void\ fly()
+numComments=6
