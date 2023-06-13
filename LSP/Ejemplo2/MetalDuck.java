@@ -1,7 +1,8 @@
 package LSP.Ejemplo2;
 
-class MetalDuck extends Duck {
+class MetalDuck implements Floatable {
+    @Override
     public void floatOnWater() {
-        throw new UnsupportedOperationException("Metal duck cannot float");
+        System.out.println("MetalDuck cannot float on water");
     }
 }

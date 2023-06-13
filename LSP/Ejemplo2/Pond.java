@@ -2,18 +2,18 @@ package LSP.Ejemplo2;
 import java.util.ArrayList;
 
 class Pond {
-    private ArrayList<Duck> ducks;
+    private ArrayList<Floatable> ducks;
 
     public Pond() {
         ducks = new ArrayList<>();
     }
 
-    public void addDuck(Duck duck) {
+    public void addDuck(Floatable duck) {
         ducks.add(duck);
     }
 
     public void makeDucksSwim() {
-        for (Duck duck : ducks) {
+        for (Floatable duck : ducks) {
             duck.floatOnWater();
         }
     }
