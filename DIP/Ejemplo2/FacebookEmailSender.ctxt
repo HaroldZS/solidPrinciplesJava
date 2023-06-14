@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FacebookEmailSender
+comment1.params=recipient
+comment1.target=void\ sendEmailToFacebook(java.lang.String)
+numComments=2

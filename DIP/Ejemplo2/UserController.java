@@ -1,14 +1,14 @@
 package DIP.Ejemplo2;
 
 public class UserController {
-    private EmailSender emailSender;
+    private EmailProcessor emailProcessor;
 
-    public UserController() {
-        this.emailSender = new EmailSender();
+    public UserController(EmailProcessor emailProcessor) {
+        this.emailProcessor = emailProcessor;
     }
 
     public void createUser(String username) {
         User user = new User(username);
-        emailSender.sendEmail(user.getEmail(), "Welcome to our platform!");
+        emailProcessor.sendEmail(user);
     }
 }
